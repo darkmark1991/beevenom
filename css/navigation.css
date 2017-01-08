@@ -1,0 +1,94 @@
+/* Navigation */
+.main-navigation {
+    font-family: Calibri, Montserrat, "Helvetica Neue", sans-serif;
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    margin: 1em auto 0 auto;
+}
+
+.main-navigation ul {
+    list-style: none;
+    position: relative;
+    float: left;
+    padding: 0;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.main-navigation ul li {
+    position: relative;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.main-navigation ul li:after {
+    content: '';
+    width: 2px;
+    height: 1.25em;
+    background: #3e3f3f;
+    position: absolute;
+    right: -1px;
+    top: 0.65em;
+}
+
+.main-navigation ul li:last-child:after{
+    display: none;
+}
+
+.main-navigation ul li .current-menu-item{
+    background: #ddd;
+}
+
+.main-navigation ul a {
+    display: block;
+    color: #3e3f3f;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.25em;
+    line-height: 2em;
+    padding: 0 1.5em;
+    font-family: Calibri, "HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.main-navigation ul li a:hover
+{
+    background: rgba(0, 0, 0, 0.04);
+    color: #ffc705;
+}
+
+.main-navigation ul ul
+{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #fff;
+    padding: 0;
+}
+
+.main-navigation ul ul li
+{
+    float: none;
+    width: 200px;
+}
+
+.main-navigation ul ul a
+{
+    line-height: 120%;
+    padding: 10px 15px;
+    top: 0;
+}
+
+.main-navigation ul ul ul
+{
+    top: 0;
+    left: 100%;
+}
+
+.main-navigation ul li:hover > ul
+{
+    display: block;
+}

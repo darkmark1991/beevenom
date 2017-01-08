@@ -1,0 +1,87 @@
+/* Front Widget */
+.front-widget-area{
+    width: 100%;
+    display: block;
+    position: relative;
+    clear: both;
+}
+
+.front-widget{
+    position: relative;
+    width: 49.2%;
+    height: 150px;
+    display: block;
+    overflow: hidden;
+    float: left;
+    background-color: rgba(255, 255, 255, 0.9);
+    margin: 1.5% 0 1.5% 0;
+}
+
+.front-widget-area :nth-child(odd){
+    margin-right: 1.6%;
+}
+
+.front-widget img{
+    position: absolute;
+    top: 1em;
+    left: 1em;
+    width: 7.375em;
+    height: 7.375em;
+}
+
+.front-widget a{
+    text-decoration: none;
+    font-family: Calibri, Montserrat, "Helvetica Neue", sans-serif;
+}
+
+.front-widget .beevenom-link-text-wrap{
+    margin-left: 150px;
+    margin-right: 1.5em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.front-widget h1{
+    color: #ffc705;
+    font-size: 2em;
+    margin: 0 0 10px 0;
+}
+
+.front-widget p{
+    font-size: 1.25em;
+    font-weight: bold;
+    color: #5d5d5d;
+    margin: 0 0 0 0;
+}
+
+/* Header Widget */
+.header-widget-area{
+    float: right;
+    height: 100px;
+}
+
+/* Warning Box */
+.warning-wrapper{
+    margin: 1% 0 1em 0;
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 100%;
+    clear: both;
+}
+
+.warning-wrapper p{
+    margin: 0 0;
+    padding: 1em 1em;
+    font-family: Calibri, Montserrat, "Helvetica Neue", sans-serif;
+    font-size: 1.25em;
+    font-weight: bold;
+    color: #5d5d5d;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.warning-wrapper .warning-header{
+    color: #e30000;
+    text-transform: uppercase;
+    font-weight: bold;
+}

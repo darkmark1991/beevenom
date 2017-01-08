@@ -1,0 +1,71 @@
+/*
+ * Theme Name: Bee Venom
+ * Theme URI: http://beevenom.com
+ * Author: Amiran Ramishvili
+ * Author URI: #
+ * Description: Custom theme for New Technology Laboratory Ltd. website. To take advantage of all its features set static front page and add BeeVenom widgets.
+ * Version: 0.0.1
+ * License: GNU General Public License v2 or later
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ * Tags: online store, custom
+ * Text Domain: beevenom
+ */
+
+/*
+ * 1.0 - Normalize
+ * 2.0 - Content
+ *   2.1  - Body
+ *   2.1  - Content
+ * 3.0 - Header
+ *   5.1  - Logo Slider
+ *   5.2  - Header Image
+ *   5.3  - Header Tagline
+ * 4.0 - Navigation
+ * 5.0 - Widgets
+ *   5.1  - Front Widget
+ *   5.2  - Header Widget
+ *   5.3  - Warning Box
+ * 6.0 - Footer
+ * 7.0 - Media Queries
+ *   7.1  - <= 910px
+ *   7.2  - <= 850px
+ *   7.3  - <= 750px
+ *   7.4  - <= 700px
+ *   7.5  - <= 650px
+ *   7.6  - <= 600px
+ *   7.7  - <= 550px
+ *   7.8  - <= 500px
+ *   7.9  - <= 450px
+ *   7.10 - <= 400px
+ *   7.11 - <= 350px
+ *   7.12 - <= 300px
+ *   7.13 - <= 250px
+ */
+
+@import url("css/normalize.css");
+@import url("css/content.css");
+@import url("css/header.css");
+@import url("css/navigation.css");
+@import url("css/widgets.css");
+@import url("css/footer.css");
+@import url("css/media_queries.css");
+
+/* post-launch edits, to be moved to corresponding files */
+.site-content{
+    padding: 2em 2em;
+    text-align: left;
+    //text-indent: 2em;
+}
+
+.beevenom-table caption{
+    display: none;
+}
+
+.main-navigation ul a{
+    padding: 0 1em;
+}
+
+
+
+
+
